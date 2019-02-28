@@ -1,0 +1,7 @@
+i)	COMMAND:	touch file1.txt
+				echo "hello world" >> file1.txt
+				echo "hello world" > file2.txt
+	OUTPUT:		# See file1.txt and file2.txt
+	
+ii)	COMMAND:	wget http://stonybrook.edu
+	OUTPUT:		# See index.html

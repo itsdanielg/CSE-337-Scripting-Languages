@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block content %}
+	<h1>Submit New Text</h1>
+    <form action="{{ url_for('index') }}" method="post">
+        {{ form.hidden_tag() }}
+        <p>
+            {{ form.text.label }}<br>
+            {{ form.text(cols="100", rows="30") }}<br>
+            {% for error in form.text.errors %}
+            <span style="color: red;">[{{ error }}]</span>
+            {% endfor %}
+        </p>
+        <p>
+            {{ form.radio(style="list-style-type:none; padding-left:0;") }}
+
+        </p>
+        <p>
+            {{ form.delimiters.label }}: {{ form.delimiters(size=20) }}<br>
+            {% for error in form.delimiters.errors %}
+            <span style="color: red;">[{{ error }}]</span>
+            {% endfor %}
+        </p>
+        <p>{{ form.submit() }}</p>
+    </form>
+{% endblock %}

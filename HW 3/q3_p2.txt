@@ -1,0 +1,13 @@
+COMMAND:	mkdir dirpath
+			echo 'export PATH=$PATH:/home/itsdanielg/dirpath' >> ~/.bashrc
+			echo $PATH
+OUTPUT:		/home/itsdanielg/bin:/home/itsdanielg/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/itsdanielg/dirpath
+EXPLANATION:	The echo is redirected to be appended to the end of the .bashrc file, so that when $PATH is echoed, it shows the directory at the end of the file.
+
+COMMAND:	mv helloworld.sh dirpath
+			source .bashrc
+			cd ~
+			helloworld.sh
+OUTPUT:		Hello World!
+
+Adding this new directory to the $PATH variable is useful because it allows the user to run any executables within the directory from any directory in the command line.

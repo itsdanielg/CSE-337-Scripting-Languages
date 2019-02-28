@@ -1,0 +1,6 @@
+i)	COMMAND:	cd ~
+
+ii)	COMMAND:	chmod u=wx direxample
+
+iii)	COMMAND:	cd direxample/copydir
+		Yes, I am able to enter the subdirectory

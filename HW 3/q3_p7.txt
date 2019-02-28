@@ -1,0 +1,16 @@
+i)	COMMAND:	cat /usr/share/dict/words | wc
+	OUTPUT:		99171	99171	938848
+	EXPLANATION:	cat /usr/shar/dict/words shows the content of words.
+					This is piped with wc to display the words, lines, and characters of the file.
+					Thus, there are 99171 words and lines, and 938848 characters in this file.
+
+ii)	EXPLANATION:	Based on these results, there is one word on each line of the file.
+
+iii)	COMMAND:	cat /usr/share/dict/words | head -500 | tail -200 >> ~/A3tmp/300-500.txt
+					cat /usr/share/dict/words | head -800 | tail -100 >>~/A3tmp/700-800.txt
+		OUTPUT:		# See 300-500.txt and 700-800.txt
+		EXPLANATION:	cat /usr/share/dict/words displays all words/lines in the file.
+						This is piped with head -500 to display only the first 500 lines.
+						This is again piped with tail -200 to display only lines 300-500.
+						This is then redirected to ~/A3tmp/300-500.txt.
+						This same concept is applied for lines 700-800.

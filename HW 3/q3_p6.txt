@@ -1,0 +1,11 @@
+i)	COMMAND:	find /usr/share/man/man1 -name "a*.gz" | wc -l
+	OUTPUT:		59
+	EXPLANATION: find /usr/share/man/man1 means it only looks within this directory
+				-name "a*.gz" means it only looks for files that start with 'a' and ends with .gz (The extension)
+				This is piped with wc -l, which prints the line count of the input
+
+ii)	COMMAND:	find -L /usr/share/man/man1 -name "a*.gz" -xtype l | wc -l
+	OUTPUT:		9
+	EXPLANATION:	Same as above with a few additions
+					-L means to follow symbolic links
+					-xtype l means to only look for symbolic links

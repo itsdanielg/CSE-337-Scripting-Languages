@@ -1,0 +1,109 @@
+i)  COMMAND:	ncal -o 2027
+    OUTPUT:		5/02/27
+    EXPLANATION: -o 2027 means to display the Easter date of the Orthodox Church at 2027
+    
+ii) COMMAND:	cal -m 7 2016 -A 23
+    OUTPUT: 
+	                            2016
+        July                 August              September        
+Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  
+                1  2      1  2  3  4  5  6               1  2  3  
+ 3  4  5  6  7  8  9   7  8  9 10 11 12 13   4  5  6  7  8  9 10  
+10 11 12 13 14 15 16  14 15 16 17 18 19 20  11 12 13 14 15 16 17  
+17 18 19 20 21 22 23  21 22 23 24 25 26 27  18 19 20 21 22 23 24  
+24 25 26 27 28 29 30  28 29 30 31           25 26 27 28 29 30     
+31                                                                
+
+      October               November              December        
+Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  
+                   1         1  2  3  4  5               1  2  3  
+ 2  3  4  5  6  7  8   6  7  8  9 10 11 12   4  5  6  7  8  9 10  
+ 9 10 11 12 13 14 15  13 14 15 16 17 18 19  11 12 13 14 15 16 17  
+16 17 18 19 20 21 22  20 21 22 23 24 25 26  18 19 20 21 22 23 24  
+23 24 25 26 27 28 29  27 28 29 30           25 26 27 28 29 30 31  
+30 31                                                             
+
+                            2017
+      January               February               March          
+Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  
+ 1  2  3  4  5  6  7            1  2  3  4            1  2  3  4  
+ 8  9 10 11 12 13 14   5  6  7  8  9 10 11   5  6  7  8  9 10 11  
+15 16 17 18 19 20 21  12 13 14 15 16 17 18  12 13 14 15 16 17 18  
+22 23 24 25 26 27 28  19 20 21 22 23 24 25  19 20 21 22 23 24 25  
+29 30 31              26 27 28              26 27 28 29 30 31     
+                                                                  
+
+       April                  May                   June          
+Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  
+                   1      1  2  3  4  5  6               1  2  3  
+ 2  3  4  5  6  7  8   7  8  9 10 11 12 13   4  5  6  7  8  9 10  
+ 9 10 11 12 13 14 15  14 15 16 17 18 19 20  11 12 13 14 15 16 17  
+16 17 18 19 20 21 22  21 22 23 24 25 26 27  18 19 20 21 22 23 24  
+23 24 25 26 27 28 29  28 29 30 31           25 26 27 28 29 30     
+30                                                                
+
+        July                 August              September        
+Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  
+                   1         1  2  3  4  5                  1  2  
+ 2  3  4  5  6  7  8   6  7  8  9 10 11 12   3  4  5  6  7  8  9  
+ 9 10 11 12 13 14 15  13 14 15 16 17 18 19  10 11 12 13 14 15 16  
+16 17 18 19 20 21 22  20 21 22 23 24 25 26  17 18 19 20 21 22 23  
+23 24 25 26 27 28 29  27 28 29 30 31        24 25 26 27 28 29 30  
+30 31                                                             
+
+      October               November              December        
+Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  
+ 1  2  3  4  5  6  7            1  2  3  4                  1  2  
+ 8  9 10 11 12 13 14   5  6  7  8  9 10 11   3  4  5  6  7  8  9  
+15 16 17 18 19 20 21  12 13 14 15 16 17 18  10 11 12 13 14 15 16  
+22 23 24 25 26 27 28  19 20 21 22 23 24 25  17 18 19 20 21 22 23  
+29 30 31              26 27 28 29 30        24 25 26 27 28 29 30  
+                                            31                    
+
+                            2018
+      January               February               March          
+Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  
+    1  2  3  4  5  6               1  2  3               1  2  3  
+ 7  8  9 10 11 12 13   4  5  6  7  8  9 10   4  5  6  7  8  9 10  
+14 15 16 17 18 19 20  11 12 13 14 15 16 17  11 12 13 14 15 16 17  
+21 22 23 24 25 26 27  18 19 20 21 22 23 24  18 19 20 21 22 23 24  
+28 29 30 31           25 26 27 28           25 26 27 28 29 30 31  
+                                                                  
+
+       April                  May                   June          
+Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  
+ 1  2  3  4  5  6  7         1  2  3  4  5                  1  2  
+ 8  9 10 11 12 13 14   6  7  8  9 10 11 12   3  4  5  6  7  8  9  
+15 16 17 18 19 20 21  13 14 15 16 17 18 19  10 11 12 13 14 15 16  
+22 23 24 25 26 27 28  20 21 22 23 24 25 26  17 18 19 20 21 22 23  
+29 30                 27 28 29 30 31        24 25 26 27 28 29 30  
+                                                                  
+EXPLANATION:  -m 7 2016 means to display July 2016
+              -A 23 means to display the next 23 months
+
+iii)	COMMAND:	ncal -w -m 1 -A 5
+      OUTPUT:		
+		                                  2018
+    January           February          March             April             
+Su     7 14 21 28        4 11 18 25        4 11 18 25     1  8 15 22 29   
+Mo  1  8 15 22 29        5 12 19 26        5 12 19 26     2  9 16 23 30   
+Tu  2  9 16 23 30        6 13 20 27        6 13 20 27     3 10 17 24      
+We  3 10 17 24 31        7 14 21 28        7 14 21 28     4 11 18 25      
+Th  4 11 18 25        1  8 15 22        1  8 15 22 29     5 12 19 26      
+Fr  5 12 19 26        2  9 16 23        2  9 16 23 30     6 13 20 27      
+Sa  6 13 20 27        3 10 17 24        3 10 17 24 31     7 14 21 28      
+    1  2  3  4  5     5  6  7  8  9     9 10 11 12 13    14 15 16 17 18   
+
+    May               June              
+Su     6 13 20 27        3 10 17 24   
+Mo     7 14 21 28        4 11 18 25   
+Tu  1  8 15 22 29        5 12 19 26   
+We  2  9 16 23 30        6 13 20 27   
+Th  3 10 17 24 31        7 14 21 28   
+Fr  4 11 18 25        1  8 15 22 29   
+Sa  5 12 19 26        2  9 16 23 30   
+   18 19 20 21 22    22 23 24 25 26   
+
+EXPLANATION:  -w means to display the week numbers
+              -m 1 means to display January of the current year (2018)
+              -A 5 means to display the next 5 months

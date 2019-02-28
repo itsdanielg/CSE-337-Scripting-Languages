@@ -1,0 +1,3 @@
+COMMAND:	head -23 lines.txt | tail -1
+OUTPUT:		Line 23
+EXPLANATION:	head -23 lines.txt displays the first 23 lines of the file. This is piped with tail -1, which only displays the last line of the input. Therefore, only line 23 is displayed.

@@ -1,0 +1,20 @@
+i)	COMMAND:	cd ~
+
+ii)	COMMAND:	mkdir direxample
+				echo "example content" > example.txt
+	OUTPUT:		# See direxample, example.txt
+				
+iii)	COMMAND:	cd ..
+					ls -l
+		OUTPUT:		drwxrwxrwx
+					-rw-rw-rw-
+
+iv)	Directory with permission rwxrw---x:
+	OWNER:	Can read content listing, allow file creation/deletion/renaming, and can enter directory
+	USER IN OWNER'S GROUP:	Can only read content listing and allow file creation/deletion/renaming; Cannot enter directory
+	USER OUTSIDE OWNER'S GROUP:	Can only enter directory; Cannot read content listing and cannot allow file creation/deletion/renaming
+
+	File with permission rwxr--r-x:
+	OWNER: Can read file, write to file, and execute file
+	USER IN OWNER'S GROUP: Can only read file; Cannot write to file and cannot execute file
+	USER OUTSIDE OWNER'S GROUP: Can onlt read file and execute file; Cannot write to file

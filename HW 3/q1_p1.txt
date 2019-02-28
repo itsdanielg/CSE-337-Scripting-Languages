@@ -1,0 +1,6 @@
+i) 	COMMAND:	echo $SHELL
+	OUTPUT:		/bin/bash
+
+ii) COMMAND:	bash
+
+iii) COMMAND:	exit bash

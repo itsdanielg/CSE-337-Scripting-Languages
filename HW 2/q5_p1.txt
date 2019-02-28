@@ -1,0 +1,9 @@
+# Daniel Garcia
+# SBU ID: 111157499
+# Homework 2
+
+# Question 5, Part 1
+
+First example: .*(to be to be|not to be).*
+
+Second Example: .*(!!|!\?|\?!).*|(hello)

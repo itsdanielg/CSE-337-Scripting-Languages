@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h1>Word Count</h1>
+    <br>
+    <p> "{{ text }}" </p>
+    <br>
+    {% for word in strList %}
+    	<p> &rarr; {{ word }} </p>
+    {% endfor %}
+    <br>
+    <p>There are <strong>{{ wordCount }}</strong> words in this text.</p>
+    <br>
+    <p> <a href="/index">Return to Main Page</a></p>
+{% endblock %}

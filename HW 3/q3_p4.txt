@@ -1,0 +1,7 @@
+COMMAND:	43 15 3,10,17,24 * * touch ~/update.txt
+
+EXPLANATION:	43 means every 43th minute;
+				15 means every 15th hour, or 3PM;
+				3,10,17,24 means every 3rd, 10th, 17th, and 24th days of the month
+				* * means every month and every weekday
+				touch ~/update.txt means create a file named update.txt at this directory

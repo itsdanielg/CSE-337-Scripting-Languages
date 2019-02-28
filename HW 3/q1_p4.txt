@@ -1,0 +1,13 @@
+i)	COMMAND:	cd; realpath file1.txt
+				cd; realpath file2.txt
+				cd; realpath index.html
+	OUTPUT:		/home/itsdanielg/file1.txt
+				/home/itsdanielg/file2.txt
+				/home/itsdanielg/index.html
+
+ii)	COMMAND:	cd /; realpath /home/itsdanielg/file1.txt
+				cd /; realpath /home/itsdanielg/file1.txt
+				cd /; realpath /home/itsdanielg/file1.txt
+	OUTPUT:		home/itsdanielg/file1.txt
+				home/itsdanielg/file2.txt
+				home/itsdanielg/index.html	

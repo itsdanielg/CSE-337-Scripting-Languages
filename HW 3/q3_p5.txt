@@ -1,0 +1,28 @@
+i)	COMMAND:	cd ~
+				mkdir A3tmp
+	OUTPUT:		# See A3tmp
+
+ii)	COMMAND:	find /var/log -name "s*" -type f 2> A3tmp/logerror.txt
+	OUTPUT:		/var/log/syslog.1
+				/var/log/syslog
+				/var/log/syslog.6.gz
+				/var/log/lightdm/seat0-greeter.log.6.gz
+				/var/log/lightdm/seat0-greeter.log.4.gz
+				/var/log/lightdm/seat0-greeter.log.2.gz
+				/var/log/lightdm/seat0-greeter.log
+				/var/log/lightdm/seat0-greeter.log.3.gz
+				/var/log/lightdm/seat0-greeter.log.5.gz
+				/var/log/lightdm/seat0-greeter.log.7.gz
+				/var/log/lightdm/seat0-greeter.log.1.gz
+				/var/log/syslog.3.gz
+				/var/log/syslog.2.gz
+				/var/log/installer/syslog
+				/var/log/syslog.7.gz
+				/var/log/syslog.4.gz
+				/var/log/syslog.5.gz
+
+EXPLANATION:	find /var/log means it only looks within or below this directory
+				-name "s*" means it only looks for files that start with 's'
+				-type f means it will only look for regular files
+				2> means it will redirect STDERR messages only
+				A3tmp/logerror.txt means it will be redirected to a logerror.txt file in the A3tmp directory

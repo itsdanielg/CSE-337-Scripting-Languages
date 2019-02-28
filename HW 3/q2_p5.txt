@@ -1,0 +1,8 @@
+i)	COMMAND:	rm -r direxample/*
+	OUTPUT:		# See direxample
+	EXPLANATION:	-r removes all the directories and contents within the directory 
+
+ii)	COMMAND:	ls direxample
+	OUTPUT:		# No output
+
+iii)	COMMAND:	rmdir direxample

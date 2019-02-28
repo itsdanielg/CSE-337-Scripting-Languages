@@ -1,0 +1,35 @@
+# Daniel Garcia
+# SBU ID: 111157499
+# Homework 2
+
+# Question 5, Part 3
+
+[-+]?\d*(\.\D+)?F\s
+Matches:
+1) +222.wwF 
+2) -33.sdF 
+3) 1234.wwF 
+Non-Matches:
+1) +q22.asR
+2) -222/as
+3) +222.rtS 
+
+(#?)(1?)(one)\1\2\3
+Matches:
+1) #1one#1one
+2) oneone
+3) #one#one
+Non-Matches:
+1) #1one#one
+2) twotwo
+3) 1one1two
+
+((a*?)\b).*\w\2\1
+Matches:
+1) aaa ..w..waaa
+2) aa waa
+3) aa.3aa
+Non-Matches:
+1) ....
+2) ??!**^!??
+3) !?? .!??

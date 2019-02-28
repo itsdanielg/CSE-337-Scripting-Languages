@@ -1,0 +1,7 @@
+COMMAND:	cd dirclone
+			ls -p | grep -v /
+
+OUTPUT:		copy.txt
+			index.html
+
+EXPLANATION:	ls -p appends a blackslash to all directories outputted by ls, and piping this with grep -v / outputs lines that don't contain this backslash.

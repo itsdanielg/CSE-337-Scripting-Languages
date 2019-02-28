@@ -1,0 +1,7 @@
+i)	COMMAND:	cd ~
+				cp -a direxample/. dirclone
+	OUTPUT:		# See dirclone
+	EXPLANATION:	The -a flag preserves all files within the directory to be copied into the new directory
+
+ii)	COMMAND:	mv index.html dirclone
+	OUTPUT:		# See dirclone

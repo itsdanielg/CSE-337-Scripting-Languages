@@ -1,0 +1,9 @@
+i)	COMMAND:	cd ~/direxample
+
+ii)	COMMAND:	cp ../example.txt copy.txt
+	OUTPUT:		# See copy.txt
+
+iii)	COMMAND:	rm ../example.txt
+
+iv)	COMMAND:	mkdir subdir
+	OUTPUT:		# See subdir

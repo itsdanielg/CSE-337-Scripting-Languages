@@ -1,0 +1,10 @@
+# Daniel Garcia
+# SBU ID: 111157499
+# Homework 2
+
+# Question 5, Part 2
+
+First Expression: ([1-9]|0[1-9]|1[012])[/]([1-9]|0[1-9]|[12][0-9]|30)[/]\d{0,4}
+
+Second Expression: 
+((\b(\w{1,4})\b )(\b(\w{1,4})\b )*(\b(\w{1,4})\b)|\b(\w{1,4})\b)

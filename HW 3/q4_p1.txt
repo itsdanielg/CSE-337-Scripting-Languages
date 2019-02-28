@@ -1,0 +1,64 @@
+Current shell is: /bin/bash
+Current directory is : /home/student/q4_p1_dir
+Home directory is : /home/student
+
+— 5 most recently modified non-empty subdirectories—
+drwxrwxr-x 2 student student 4096 Nov 25 02:50 dir5/
+drwxrwxr-x 2 student student 4096 Nov 25 02:50 dir4/
+drwxrwxr-x 2 student student 4096 Nov 25 02:50 dir3/
+drwxrwxr-x 2 student student 4096 Nov 25 02:50 dir2/
+drwxrwxr-x 2 student student 4096 Nov 25 02:44 dir1/
+
+— Files in last 45 minutes
+./dir3/sample28.txt
+./dir3/sample30.txt
+./dir3/sample26.txt
+./dir3/sample22.txt
+./dir3/sample27.txt
+./dir3/sample21.txt
+./dir3/sample25.txt
+./dir3/sample24.txt
+./dir3/sample29.txt
+./dir3/sample23.txt
+./dir1/sample9.txt
+./dir1/sample8.txt
+./dir1/sample5.txt
+./dir1/sample2.txt
+./dir1/sample10.txt
+./dir1/sample1.txt
+./dir1/sample3.txt
+./dir1/sample7.txt
+./dir1/sample4.txt
+./dir1/sample6.txt
+./dir5/sample47.txt
+./dir5/sample40.txt
+./dir5/sample44.txt
+./dir5/sample45.txt
+./dir5/sample46.txt
+./dir5/sample49.txt
+./dir5/sample43.txt
+./dir5/sample48.txt
+./dir5/sample50.txt
+./dir5/sample41.txt
+./dir5/sample42.txt
+./dir2/sample20.txt
+./dir2/sample16.txt
+./dir2/sample13.txt
+./dir2/sample17.txt
+./dir2/sample11.txt
+./dir2/sample14.txt
+./dir2/sample15.txt
+./dir2/sample12.txt
+./dir2/sample18.txt
+./dir2/sample19.txt
+./dir4/sample33.txt
+./dir4/sample38.txt
+./dir4/sample36.txt
+./dir4/sample35.txt
+./dir4/sample31.txt
+./dir4/sample37.txt
+./dir4/sample34.txt
+./dir4/sample32.txt
+./dir4/sample39.txt
+
+======================================================================
